@@ -25,7 +25,7 @@ def czy_trojkat(a, b, c):
     return boki[0] + boki[1] > boki[2]
         
 lista_trojek = []
-with open("66/trojki.txt") as plik:
+with open("C:/Users/bar.nowosad/Desktop/visual/zadania/66/trojki.txt") as plik:
     for linia in plik:
         lista_trojek.append(linia.split())
 
